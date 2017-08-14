@@ -2,7 +2,8 @@ const express = require('express'),
 	logger = require('morgan'),
 	app	= express(),
 	bodyParser	= require('body-parser'),
-	PORT = process.env.PORT || 8080,
+	// PORT = process.env.PORT || 8080,
+	PORT = process.env.PORT || "https://serene-dusk-55355.herokuapp.com/api",
 	Auth = require('./services/auth'),
 	cors = require('cors');
 

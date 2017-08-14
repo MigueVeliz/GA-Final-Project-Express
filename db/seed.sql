@@ -15,8 +15,8 @@ CREATE TABLE users (
   token VARCHAR NOT NULL
 );
 
--- INTEGER INTO users(name, email, password_digest, token) VALUES
--- ("Angel", "lol@gmail.com", "fsdfsd", "dsfsdfsdfsd");
+-- INSERT INTO users(name, email, password_digest, token) VALUES
+-- ('Angel', 'lol@gmail.com', 'fsdfsd', 'dsfsdfsdfsd');
 
 
 
@@ -32,9 +32,9 @@ CREATE TABLE take_five(
 	fifth_number INTEGER
 );
 
--- INSERT INTO take_five(first_number, second_number, third_number, fourth_number, fifth_number, user_id) VALUES
--- (4, 23, 1, 5, 7, 1),
--- (6, 21, 4, 7, 10, 1);
+-- INSERT INTO take_five(first_number, second_number, third_number, fourth_number, fifth_number) VALUES
+-- (4, 23, 1, 5, 7),
+-- (6, 21, 4, 7, 10);
 
 CREATE TABLE numbers(
 	id SERIAL PRIMARY KEY,
